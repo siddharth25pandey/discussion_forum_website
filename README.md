@@ -1,6 +1,6 @@
 # discussion_forum_website
 **Project Details**
-We are going to create a Discussion forum website in which user can discuss related to his/her topic of discussion after secure login through registration into the website. 
+We are going to create a Discussion forum website in which user can discuss related to their interest after secure login through registration into the website. 
 # Features to be include
 
 1.**Registration** (Can be created through HTML forms) data have to be added through PHP and MySql DataBase Management System. OR We can redirect all the information to a particular host Email Id.
