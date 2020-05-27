@@ -9,3 +9,5 @@ Angular JS
 MySQL
 SQLite
 PHP
+Mongo DB
+Node JS
