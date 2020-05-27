@@ -1,0 +1,18 @@
+.header {
+    padding: 30px;
+    text-align: center;
+    background: blue;
+    font-size: 40px;
+    color: greenyellow;
+}
+
+h1 {
+    text-align: center;
+}
+
+.footer {
+    padding: 30px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
