@@ -21,7 +21,7 @@ Email Notifications- When any message comes in discussion panel it will give a e
 
 8.Edit and Reply to the Messages-  Feature of replying and Editing the text messages sended by the user in discussion forum.
 
-9. Sub-Forums & Categories or Division of the Discussion forum- Enables the user to quickly find out the Division of the Forums according to their choice.
+9.Sub-Forums & Categories or Division of the Discussion forum- Enables the user to quickly find out the Division of the Forums according to their choice.
 
 
 
