@@ -1,9 +1,10 @@
 # discussion_forum_website
 **Project Details**
 We are going to create a Discussion forum website in which user can discuss related to his/her topic of discussion after secure login through registration into the website. 
+</hr>
 # Features to be include
 
-1.Registration (Can be created through HTML forms) data have to be added through PHP and MySql DataBase Management System. OR We can redirect all the information to a particular host Email Id.
+1.Registration (Can be created through HTML forms) data have to be added through PHP and MySql DataBase Management System. OR We can redirect all the information to a particular host Email Id.<-- 
 2.Authentication System- It enables the to recognise the authentic user after the successful Login. (It can be implemented through Django or Angular JS) as Backend Work
 3.User Profile and Avatar - It can be easily implemented through HTML,CSS And have to connect with the server host.
 Email Notifications- When any message comes in discussion panel it will give a email  notification about the same. (can be implemented through React or Django)
@@ -16,4 +17,4 @@ Email Notifications- When any message comes in discussion panel it will give a e
 
 
 
-##More Details will be uploaded stay tuned.
+## More Details will be uploaded stay tuned.
