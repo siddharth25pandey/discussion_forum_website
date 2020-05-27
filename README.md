@@ -24,4 +24,4 @@ Email Notifications- When any message comes in discussion panel it will give a e
 
 
 
-## More Details will be uploaded stay tuned.
+## More Details will be uploaded soon! stay tuned.
