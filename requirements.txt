@@ -1,0 +1,11 @@
+HTML
+CSS
+Java Script
+BootStrap
+React
+React-Native
+Django
+Angular JS
+MySQL
+SQLite
+PHP
