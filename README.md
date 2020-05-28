@@ -27,4 +27,4 @@ We are going to create a Discussion forum website in which user can discuss rela
 For any queries, reach out to:
 * [Siddharth Pandey](mailto:siddharth25pandey@gmail.com)
 * [Shreyash Mishra](mailto:shreyashm1601@gmail.com)
-* [S.Suryavardan](mailto:)
+* [S Suryavardan](mailto:suryavardan17@gmail.com)
