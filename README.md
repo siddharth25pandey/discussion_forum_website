@@ -29,3 +29,4 @@ For any queries, reach out to:
 * [Shreyash Mishra](mailto:shreyashm1601@gmail.com)
 * [S Suryavardan](mailto:suryavardan17@gmail.com)
 * [Priyam Bajpai](mailto:bajpaipriyam90@gmail.com)
+* [Tanay Raj](mailto:)
