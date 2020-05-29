@@ -1,0 +1,36 @@
+{
+  "name": "discussion_forum_website",
+  "version": "1.0.0",
+  "description": "**Project Details**\r We are going to create a Discussion forum website in which user can discuss related to their interest after secure login through registration into the website. \r # Features to be include",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanay13/discussion_forum_website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanay13/discussion_forum_website/issues"
+  },
+  "homepage": "https://github.com/tanay13/discussion_forum_website#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.1",
+    "method-override": "^3.0.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
