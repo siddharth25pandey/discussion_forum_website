@@ -24,7 +24,7 @@ We are going to create a Discussion forum website in which user can discuss rela
 10.**Sub-Forums & Categories or Division of the Discussion forum**- Enables the user to quickly find out the Division of the Forums according to their choice.
 
 ## More Details will be uploaded soon! stay tuned.
-For any queries, reach out to:
+For any queries, reach out to the Developers :
 * [Siddharth Pandey](mailto:siddharth25pandey@gmail.com)
 * [Shreyash Mishra](mailto:shreyashm1601@gmail.com)
 * [S Suryavardan](mailto:suryavardan17@gmail.com)
