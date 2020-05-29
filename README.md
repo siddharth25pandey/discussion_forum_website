@@ -5,11 +5,11 @@
 
 * **Registration** (Can be created through HTML forms) data have to be added through PHP and MySql DataBase Management System. OR We can redirect all the information to a particular host Email Id.
 
-* **Authentication System**- It enables the to recognise the authentic user after the successful Login. (It can be implemented through Django or Angular JS) as Backend Work.
+* **Authentication System**- It enables the to recognise the authentic user after the successful Login. (It can be implemented through NodeJS or Angular JS) as Backend Work.
 
 * **User Profile and Avatar** - It can be easily implemented through HTML,CSS And have to connect with the server host.
 
-* **Email Notifications**- When any message comes in discussion panel it will give a email  notification about the same. (can be implemented through React or Django).
+* **Email Notifications**- When any message comes in discussion panel it will give a email  notification about the same. (can be implemented through React or Node JS).
 
 * **Messaging system** - Enables user to text messages in form of text/picture/video(first we only implement on text messages then after it, we will proceed).
 
