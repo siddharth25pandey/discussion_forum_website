@@ -22,7 +22,7 @@
 * **Edit and Reply to the Messages**-  Feature of replying and Editing the text messages sended by the user in discussion forum.
 
 * **Sub-Forums & Categories or Division of the Discussion forum**- Enables the user to quickly find out the Division of the Forums according to their choice.
-* For visiting setup file please follow this [url](https://github.com/siddharth25pandey/discussion_forum_website/blob/master/setup.md)
+* For visiting **setup file** please follow this [url](https://github.com/siddharth25pandey/discussion_forum_website/blob/master/setup.md)
 
 ## More Details will be uploaded soon! stay tuned.
 For any queries, reach out to the Developers :
