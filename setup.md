@@ -9,7 +9,7 @@
 * after that your local server will running in your System
 * Then go to any browser add search the following url 
 * localhost:3000
-# Congrats! now you are on the Home page of our website.
-# For Navigation purpose, please visit each page thoroughly and enjoy the discussion forum.
-# Don't forget to add your sugggestions through Contact Us. We welcome your feedback wholehearteldy.
-# Thanks! Visit Again.
+### Congrats! now you are on the Home page of our website.
+### For Navigation purpose, please visit each page thoroughly and enjoy the discussion forum.
+### Don't forget to add your sugggestions through Contact Us. We welcome your feedback wholehearteldy.
+### Thanks! Visit Again.
