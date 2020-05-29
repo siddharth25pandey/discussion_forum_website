@@ -25,8 +25,8 @@ We are going to create a Discussion forum website in which user can discuss rela
 
 ## More Details will be uploaded soon! stay tuned.
 For any queries, reach out to the Developers :
-* [Siddharth Pandey](mailto:siddharth25pandey@gmail.com)
-* [Shreyash Mishra](mailto:shreyashm1601@gmail.com)
-* [S Suryavardan](mailto:suryavardan17@gmail.com)
-* [Priyam Bajpai](mailto:bajpaipriyam90@gmail.com)
-* [Tanay Raj](mailto:tanay.raj76@gmail.com)
+* [Siddharth Pandey](mailto:siddharth25pandey@gmail.com) (Front End)
+* [Shreyash Mishra](mailto:shreyashm1601@gmail.com) (Front End)
+* [S Suryavardan](mailto:suryavardan17@gmail.com) (Front End)
+* [Priyam Bajpai](mailto:bajpaipriyam90@gmail.com) (Front End)
+* [Tanay Raj](mailto:tanay.raj76@gmail.com) (Back End)
