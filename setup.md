@@ -10,5 +10,5 @@
 ### NOTE :- For visiting readme file please follow this [url](https://github.com/siddharth25pandey/discussion_forum_website/blob/master/README.md)
 ### Congratulations! Now you are on the Home Page of our website.
 ### For Navigation purposes, please visit each page thoroughly and enjoy the discussion forum.
-### Don't hesitate to add your sugggestions through Contact Us page. We welcome your all your feedbacks wholeheartedly.
+### Don't hesitate to add your sugggestions through Contact Us page. We welcome your feedbacks wholeheartedly.
 ### Thank You! We hope you visit again.
