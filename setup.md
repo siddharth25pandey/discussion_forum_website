@@ -7,9 +7,11 @@
 * In the Command line enter the following commands
 * "**npm run devStart**" (without double quotes)
 * after that your local server will running in your System
-* Then go to any browser add search the following url 
+* Then go to any browser & search the following url 
 * localhost:3000
+* For visiting readme file please follow this [url](https://github.com/siddharth25pandey/discussion_forum_website/blob/master/README.md)
 ### Congrats! now you are on the Home page of our website.
 ### For Navigation purpose, please visit each page thoroughly and enjoy the discussion forum.
 ### Don't forget to add your sugggestions through Contact Us. We welcome your feedback wholehearteldy.
 ### Thanks! Visit Again.
+
