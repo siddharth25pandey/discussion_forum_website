@@ -26,7 +26,7 @@ We are going to create a Discussion forum website in which user can discuss topi
 * Making a logo for the website
 * Creating content for the website's home and about pages
 * Creation of messaging system
-* Creation of Authentication Server
+* Creation of Authentication Server with MongoDB
 * Linking host e-mail ID with *contact us* form
 
 ## Work Remaining:
