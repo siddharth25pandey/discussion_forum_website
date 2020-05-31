@@ -4,16 +4,16 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Discussion Forum Website</title>
-  <link rel="stylesheet" type="text/css" href="register.css">
+  <link rel="stylesheet" type="text/css" href="../public/register.css">
   <script src="register.js"></script>
 </head>
 
 <body>
   <ul>
-    <li><a href="/contact_us">Contact Us</a></li>
-    <li><a class="active" href="/register">Register</a></li>
-    <li><a href="/about">About</a>
-    <li><a href="/home_page">Home</a></li>
+    <li><a href="/contact_us.ejs">Contact Us</a></li>
+    <li><a class="active" href="/register.ejs">Register</a></li>
+    <li><a href="/about.ejs">About</a>
+    <li><a href="/home_page.ejs">Home</a></li>
   </ul>
   <br>
   <br>
@@ -53,45 +53,45 @@
 
       <button type="submit" class="registerbtn">Register</button></a>
     </div>
-  </form>  
+  </form>
 
-    <div class="container signin">
-      <p>Already have an account? <button onclick="document.getElementById('id01').style.display='block'"
-          style="width:auto;">Login</button>
+  <div class="container signin">
+    <p>Already have an account? <button onclick="document.getElementById('id01').style.display='block'"
+        style="width:auto;">Login</button>
 
-      <div id="id01" class="modal">
+    <div id="id01" class="modal">
 
-        <form class="modal-content animate" action="/login" method="POST">
-          <div class="imgcontainer">
-            <span onclick="document.getElementById('id01').style.display='none'" class="close"
-              title="Close Modal">&times;</span>
-            <img src="avtar.jpg" alt="Avatar" class="avatar">
-          </div>
+      <form class="modal-content animate" action="/login" method="POST">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close"
+            title="Close Modal">&times;</span>
+          <img src="avtar.jpg" alt="Avatar" class="avatar">
+        </div>
 
-          <div class="container">
-            
-            <label for="email"><b>Email</b></label>
-            <input type="text" placeholder="Enter Email" name="email" id="email" required>
-      
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="password" id="psw" required>
+        <div class="container">
 
-            <button type="submit">Login</button>
-            <label>
-              <input type="checkbox" checked="checked" name="remember"> Remember me
-            </label>
-          </div>
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="email" required>
 
-          <div class="container" style="background-color:#f1f1f1">
-            <button type="button" onclick="document.getElementById('id01').style.display='none'"
-              class="cancelbtn">Cancel</button>
-            <span class="psw">Forgot <a href="#">password?</a></span>
-          </div>
-        </form>
-      </div>
-      .</p>
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="password" id="psw" required>
+
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'"
+            class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
     </div>
-  
+    .</p>
+  </div>
+
 
   <div class="footer">
     Copyright @ Discussion Forum Platform

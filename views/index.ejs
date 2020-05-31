@@ -3,7 +3,7 @@
 
 <head>
     <title>Messaging System</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="../public/index.css">
 </head>
 
 <body>
@@ -19,14 +19,14 @@
     <script type="text/javascript">
         var socket = io.connect();
 
-        $("form#chat").submit(function(e) {
+        $("form#chat").submit(function (e) {
             e.preventDefault();
-            socket.emit("send message", $(this).find("#msg_text").val(), function() {
+            socket.emit("send message", $(this).find("#msg_text").val(), function () {
                 $("form#chat #msg_text").val("");
             });
         });
 
-        socket.on("update messages", function(msg) {
+        socket.on("update messages", function (msg) {
             var final_message = $("<p />").text(msg);
             $("#history").append(final_message);
         });
