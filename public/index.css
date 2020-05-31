@@ -1,0 +1,60 @@
+html,
+body,
+input {
+    font-family: Georgia, Tahoma, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: blue;
+    font-size: larger;
+    text-align: center;
+    font-size: 50px;
+}
+
+body {
+    background: #302F31;
+    padding: 10px;
+    background-image: linear-gradient(180deg, #3ca2d2 0, #a8f3ff 50%, #44b0c6 100%);
+}
+
+div {
+    position: relative;
+    z-index: 1000
+}
+
+.page {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(180deg, #3ca2d2 0, #a8f3ff 50%, #44b0c6 100%)
+}
+
+form {
+    margin: 15px 0;
+}
+
+form input[type='text'] {
+    border: 2px solid #eb5424;
+    border-radius: 5px;
+    padding: 5px;
+    width: 50%;
+}
+
+form input[type='submit'] {
+    background: #eb5424;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 7px 5px;
+    width: 19%;
+}
+
+#history {
+    background: #FFF;
+    border: 2px solid #eb5424;
+    height: 550px;
+}
