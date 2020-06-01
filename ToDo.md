@@ -21,9 +21,9 @@ We are going to create a Discussion forum website in which user can discuss topi
 * Avatar and User Profile Linked
 * Decoration & Designing of the Setup File
 * Node JS initialization
+* Making a logo for the website
 
 ## The Ongoing Work:
-* Making a logo for the website
 * Creating content for the website's home and about pages
 * Creation of messaging system
 * Creation of Authentication Server with MongoDB
