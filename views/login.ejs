@@ -4,15 +4,15 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discussion Forum Website</title>
-    <link rel="stylesheet" type="text/css" href="register.css">
+    <link rel="stylesheet" type="text/css" href="login.css">
 
 </head>
 
 <body>
     <ul>
         <li><a href="/contact_us">Contact Us</a></li>
-        <li><a href="/login">Login</a>
-            <li><a class="active" href="/register">Register</a></li>
+        <li><a class="active" href="/login">Login</a></li>
+        <li><a href="/register">Register</a>
             <li><a href="/about">About</a>
                 <li><a href="/home_page">Home</a></li>
     </ul>
@@ -24,7 +24,7 @@
         <div class="form">
             <br>
             <br>
-            <h2>Registration Form</h2>
+            <h2>Login Form</h2>
 
 
             <div class="social">
@@ -34,32 +34,16 @@
             </div>
 
             <form id="login" class="input-group">
-                <input type="text" class="input-field" placeholder="Name" required>
-                <input type="text" class="input-field" placeholder="Discussion Forum Name" required>
                 <input type="email" class="input-field" placeholder="Email-Id" required>
                 <input type="text" class="input-field" placeholder="Password" required>
-                <input type="text" class="input-field" placeholder="Confirm Password" required>
-                <input type="checkbox" class="check-box"><span>I agree to terms & conditions</span>
-                <button type="submit" class="submit-btn">Sign Up</button>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Log In</button>
             </form>
         </div>
 
         <div class="footer">
             Copyright @ Discussion Forum Platform
         </div>
-        <script>
-            var y = document.getElementById("register");
-            var z = document.getElementById("btn");
-
-            function register() {
-                x.style.left = "-400px";
-                y.style.left = "50px";
-                z.style.left = "110px";
-            }
-        </script>
-
-
-
 </body>
 
 </html>
