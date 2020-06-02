@@ -33,9 +33,9 @@
                 <img src="linkedin.png">
             </div>
 
-            <form id="login" class="input-group">
-                <input type="email" class="input-field" placeholder="Email-Id" required>
-                <input type="text" class="input-field" placeholder="Password" required>
+            <form action="/login" method="POST" id="login" class="input-group">
+                <input type="email" class="input-field" name="email" placeholder="Email-Id" required>
+                <input type="password" class="input-field" name="password" placeholder="Password" required>
                 <input type="checkbox" class="check-box"><span>Remember Password</span>
                 <button type="submit" class="submit-btn">Log In</button>
             </form>
