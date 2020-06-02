@@ -30,4 +30,5 @@ For any queries, reach out to the Developers :
 * [Siddharth Pandey](mailto:siddharth25pandey@gmail.com) (**Front End**)
 * [S Suryavardan](mailto:suryavardan17@gmail.com) (**Front End**)
 * [Shreyash Mishra](mailto:shreyashm1601@gmail.com) (**Front End**)
+* [Piyush Kumar](mailto:kumarpiyushsingh9311@gmail.com) (**Front End**)
 * [Priyam Bajpai](mailto:bajpaipriyam90@gmail.com) (**Front End**)

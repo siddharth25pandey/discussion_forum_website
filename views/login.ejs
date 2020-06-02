@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discussion Forum Website</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+
+</head>
+
+<body>
+    <ul>
+        <li><a href="/contact_us">Contact Us</a></li>
+        <li><a class="active" href="/login">Login</a></li>
+        <li><a href="/register">Register</a>
+            <li><a href="/about">About</a>
+                <li><a href="/home_page">Home</a></li>
+    </ul>
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+        <div class="form">
+            <br>
+            <br>
+            <h2>Login Form</h2>
+
+
+            <div class="social">
+                <img src="facebook.png">
+                <img src="twitter.png">
+                <img src="linkedin.png">
+            </div>
+
+            <form action="/login" method="POST" id="login" class="input-group">
+                <input type="email" class="input-field" name="email" placeholder="Email-Id" required>
+                <input type="password" class="input-field" name="password" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Log In</button>
+            </form>
+        </div>
+
+        <div class="footer">
+            Copyright @ Discussion Forum Platform
+        </div>
+</body>
+
+</html>
