@@ -5,17 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discussion Forum Website</title>
     <link rel="stylesheet" type="text/css" href="register.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
 </head>
 
 <body>
-    <ul>
-        <li><a href="/contact_us">Contact Us</a></li>
-        <li><a href="/login">Login</a>
-            <li><a class="active" href="/register">Register</a></li>
-            <li><a href="/about">About</a>
-                <li><a href="/home_page">Home</a></li>
-    </ul>
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#"><img src="public/logo.png" width="10%"></a>
+
+        <!-- Links -->
+        <ul class="navbar-nav float-right ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="home_page.ejs">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.ejs">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.ejs">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="register.ejs">Register</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact_us.ejs">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
     <br>
     <br>
     <br>
@@ -37,8 +54,10 @@
                 <input type="text" class="input-field" name="name" placeholder="Name" required>
                 <input type="text" class="input-field" placeholder="Discussion Forum Name" required>
                 <input type="email" class="input-field" name="email" placeholder="Email-Id" required>
-                <input type="password" class="input-field" name="password" placeholder="Password (atlease 6 characters)" required>
-                <input type="password" class="input-field" name="passwordrepeat" placeholder="Confirm Password" required>
+                <input type="password" class="input-field" name="password" placeholder="Password (atlease 6 characters)"
+                    required>
+                <input type="password" class="input-field" name="passwordrepeat" placeholder="Confirm Password"
+                    required>
                 <input type="checkbox" class="check-box"><span>I agree to terms & conditions</span>
                 <button type="submit" class="submit-btn">Sign Up</button>
             </form>
