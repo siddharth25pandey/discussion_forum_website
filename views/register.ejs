@@ -33,12 +33,12 @@
                 <img src="linkedin.png">
             </div>
 
-            <form id="login" class="input-group">
-                <input type="text" class="input-field" placeholder="Name" required>
+            <form action="/register" method="POST" id="login" class="input-group">
+                <input type="text" class="input-field" name="name" placeholder="Name" required>
                 <input type="text" class="input-field" placeholder="Discussion Forum Name" required>
-                <input type="email" class="input-field" placeholder="Email-Id" required>
-                <input type="text" class="input-field" placeholder="Password" required>
-                <input type="text" class="input-field" placeholder="Confirm Password" required>
+                <input type="email" class="input-field" name="email" placeholder="Email-Id" required>
+                <input type="password" class="input-field" name="password" placeholder="Password (atlease 6 characters)" required>
+                <input type="password" class="input-field" name="passwordrepeat" placeholder="Confirm Password" required>
                 <input type="checkbox" class="check-box"><span>I agree to terms & conditions</span>
                 <button type="submit" class="submit-btn">Sign Up</button>
             </form>
@@ -50,7 +50,6 @@
         <script>
             var y = document.getElementById("register");
             var z = document.getElementById("btn");
-
             function register() {
                 x.style.left = "-400px";
                 y.style.left = "50px";
