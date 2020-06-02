@@ -31,7 +31,7 @@ body {
     position: relative;
     margin: 6% auto;
     background: #ffffff;
-    padding: 5px;
+    padding: 20px;
     overflow: hidden;
 }
 
@@ -123,18 +123,18 @@ span {
     font-size: 12px;
 }
 
-
 #register {
     left: 450px;
 }
+
 nav {
-    background-color: #ccc;
-  }
+    background-color: #ddd;
+}
 
 .footer {
     padding: 30px;
     text-align: center;
     background: #ddd;
-    margin-top: 20px;
     text-decoration-color: black;
+    margin-top: 20px;
 }
