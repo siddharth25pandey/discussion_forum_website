@@ -5,16 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Discussion Forum</title>
     <link rel="stylesheet" type="text/css" href="contact_us.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 </head>
 
 <body>
-    <ul>
-        <li><a class="active" href="/contact_us">Contact Us</a></li>
-        <li><a href="/login">Login</a>
-            <li><a href="/register">Register</a></li>
-            <li><a href="/about">About</a>
-                <li><a href="/">Home</a></li>
-    </ul>
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#"><img src="logo.png" width="10%"></a>
+
+        <!-- Links -->
+        <ul class="navbar-nav float-right ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="home_page.ejs">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.ejs">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.ejs">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="register.ejs">Register</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
     <br>
     <br>
     <br>

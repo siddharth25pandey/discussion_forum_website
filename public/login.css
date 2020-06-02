@@ -129,48 +129,9 @@ span {
 #register {
     left: 450px;
 }
-
-ul {
-    list-style-type: none;
-    Margin-top: 10px;
-    Margin-left: 700px;
-    padding: 0;
-    position: fixed;
-    top: 0;
-    width: 50%;
-}
-
-li {
-    float: right;
-}
-
-li {
-    display: inline-block;
-}
-
-li a {
-    color: #ffffff;
-    text-decoration: none;
-    padding: 5px 20px;
-    font-family: "Roboto", "sans-serif";
-    font-size: 20px;
-}
-
-li.active a {
-    border: 1px solid white;
-    padding: 5px 19px;
-}
-
-li a:hover {
-    border: 1px solid white;
-    padding: 5px 19px;
-    /*position: fixed;*/
-}
-
-.active {
-    background-color: #ee5610f8;
-}
-
+nav {
+    background-color: #ccc;
+  }
 .footer {
     padding: 30px;
     text-align: center;
