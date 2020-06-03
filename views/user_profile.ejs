@@ -2,9 +2,12 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>My Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Discussion Forum Website , Discussion, Web development, App development, Machine Learning,Data Science, Student, Research, Software Engineering, Internship, SOftware Engineering Internship" />
+    <title>Discussion Forum</title>
+    <meta name="description" content="Discussion Forum website" />
+    <meta name="author" content="Siddharth Pandey" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alef">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Armata">
@@ -14,37 +17,37 @@
         body {
             background-image: linear-gradient(180deg, #3ca2d2 0, #a8f3ff 50%, #44b0c6 100%)
         }
-
+        
         .content {
             position: relative;
             z-index: 1000;
         }
-
+        
         .page {
             position: absolute;
             height: 100%;
             width: 100%;
             background-image: linear-gradient(180deg, #3ca2d2 0, #a8f3ff 50%, #44b0c6 100%)
         }
-
+        
         .user_activity {
             top: 70%;
             height: auto;
             background-image: linear-gradient(180deg, #7a878e 0, #bdbdbd 50%, #d6dbdd 100%)
         }
-
+        
         .page_user {
             position: relative;
             z-index: 1000;
             width: 100%
         }
-
+        
         .user_details {
             position: fixed;
             z-index: -99;
             top: 5%
         }
-
+        
         .dropdown-item:hover {
             background-color: #7a878e;
         }
@@ -55,12 +58,12 @@
     <div class="page content">
         <div class="user_details page_user" style="margin-top: 0px;">
             <div class="row" id="user_details_row" style="margin: 0px;">
-                <div class="col text-center m-auto col-md-6 col-sm-12 col-12" id="user_img" style="padding: 10px;"><img
-                        class="img-fluid border rounded-circle border-dark shadow-lg"
-                        src="../public/default_profile.png" width="40%"></div>
-                <div class="col text-center m-auto col-md-6 col-sm-12 col-12" id="user_name"
-                    style="padding: 0px;padding-bottom: 5px;">
-                    <h1 class="display-4 text-center">Welcome <%=name%> </user></h1>
+                <div class="col text-center m-auto col-md-6 col-sm-12 col-12" id="user_img" style="padding: 10px;"><img class="img-fluid border rounded-circle border-dark shadow-lg" src="../public/default_profile.png" width="40%"></div>
+                <div class="col text-center m-auto col-md-6 col-sm-12 col-12" id="user_name" style="padding: 0px;padding-bottom: 5px;">
+                    <h1 class="display-4 text-center">Welcome
+                        <%=name%>
+                            </user>
+                    </h1>
                     <button class="btn btn-primary" type="button">Edit Profile</button>
                     <button class="btn btn-success" type="button" style="margin-left: 5px;">Chat</button>
                     <a href="/logout" class="btn btn-warning" style="margin-left: 5px;">Logout</a>
@@ -71,8 +74,7 @@
         <div class="text-center user_activity page_user">
             <hr style="background-color: #000000;width: 80vw;">
             <div class="dropdown">
-                <button class="btn btn-dark btn-block btn-lg dropdown-toggle" data-toggle="dropdown"
-                    aria-expanded="false" type="button">TOPICS </button>
+                <button class="btn btn-dark btn-block btn-lg dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">TOPICS </button>
                 <div role="menu" class="dropdown-menu text-center" style="width: 100vw;">
                     <a role="presentation" class="dropdown-item" href="#">Web Development</a>
                     <a role="presentation" class="dropdown-item" href="#">App Development</a>
@@ -88,28 +90,24 @@
                 <div class="col" style="padding: 2%;">
                     <div class="card">
                         <div class="card-header">
-                            <img class="border rounded-circle float-left" style="width: 25%;"
-                                src="../public/default_profile.png">
+                            <img class="border rounded-circle float-left" style="width: 25%;" src="../public/default_profile.png">
                             <h3>Username</h3>
                             <h5>email</h5>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio,
-                                dapibus ac facilisis in, egestas eget quam.&nbsp;</p>
+                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.&nbsp;</p>
                         </div>
                     </div>
                 </div>
                 <div class="col" style="padding: 2%;">
                     <div class="card">
                         <div class="card-header">
-                            <img class="border rounded-circle float-left" style="width: 25%;"
-                                src="../public/default_profile.png">
+                            <img class="border rounded-circle float-left" style="width: 25%;" src="../public/default_profile.png">
                             <h3>Username</h3>
                             <h5>email</h5>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio,
-                                dapibus ac facilisis in, egestas eget quam.&nbsp;</p>
+                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.&nbsp;</p>
                         </div>
                     </div>
                 </div>
@@ -118,28 +116,24 @@
                 <div class="col" style="padding: 2%;">
                     <div class="card">
                         <div class="card-header">
-                            <img class="border rounded-circle float-left" style="width: 25%;"
-                                src="../public/default_profile.png">
+                            <img class="border rounded-circle float-left" style="width: 25%;" src="../public/default_profile.png">
                             <h3>Username</h3>
                             <h5>email</h5>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio,
-                                dapibus ac facilisis in, egestas eget quam.&nbsp;</p>
+                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.&nbsp;</p>
                         </div>
                     </div>
                 </div>
                 <div class="col" style="padding: 2%;">
                     <div class="card">
                         <div class="card-header">
-                            <img class="border rounded-circle float-left" style="width: 25%;"
-                                src="../public/default_profile.png">
+                            <img class="border rounded-circle float-left" style="width: 25%;" src="../public/default_profile.png">
                             <h3>Username</h3>
                             <h5>emial</h5>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio,
-                                dapibus ac facilisis in, egestas eget quam.&nbsp;</p>
+                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.&nbsp;</p>
                         </div>
                     </div>
                 </div>
