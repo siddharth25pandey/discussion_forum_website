@@ -3,43 +3,72 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Discussion Forum Website , Discussion, Web development, App development, Machine Learning,Data Science, Student, Research, Software Engineering, Internship, SOftware Engineering Internship" />
     <title>Discussion Forum</title>
+    <meta name="description" content="Discussion Forum website" />
+    <meta name="author" content="Siddharth Pandey" />
     <link rel="stylesheet" type="text/css" href="contact_us.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 </head>
 
 <body>
-<ul>
-  <li><a class="active" href="/contact_us">Contact Us</a></li>
-    <li><a  href="/register">Register</a></li>
-    <li><a href="/about">About</a>
-    <li><a href="/">Home</a></li>
-</ul>
-    <br>
-    <br>
-    <br>
-    <h2 style="color: orange">Welcome to Contact Us.</h2>
-    <br>
-    <br>
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#"><img src="logo.png" width="10%"></a>
 
- <form action="/action_page.php">
-  <div class="container">
-    <h1>Contact Us</h1>
-    <p>Please fill this form.</p>
-    <hr>
-    <label for="name"><b>Your Name</b></label>
-    <input type="text" placeholder="Enter Name" name="name" id="name" required>
-    <br>
-    <br>
-    <label for="email"><b>Your Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
-    <label for="message"><b>Your Message </b></label>
-    <input type="text" placeholder="Enter Message" required>
-    <button type="submit" class="registerbtn">Send</button>
-  </div>
-</form>
- <div class="footer">
- Copyright @ Discussion Forum Platform
- </div>
+        <!-- Links -->
+        <ul class="navbar-nav float-right ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/login">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/register">Register</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="/contact_us">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="form">
+
+            <h2>Contact Us</h2>
+
+
+            <div class="social">
+                <img src="facebook.png">
+                <img src="twitter.png">
+                <img src="linkedin.png">
+            </div>
+
+            <form action="/contact_us" method="POST" id="login" class="input-group">
+                <input type="name" class="input-field" name="name" placeholder="Your name" required>
+                <input type="email" class="input-field" name="email" placeholder="Email-id" required>
+                <input type="message" class="input-field" name="message" placeholder="message" required>
+                <br>
+                <br>
+                <br>
+                <button type="submit" class="submit-btn">Send</button>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        Copyright @ Discussion Forum Platform
+    </div>
 </body>
 
 </html>
