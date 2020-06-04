@@ -2,49 +2,53 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>My Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Discussion Forum Website , Discussion, Web development, App development, Machine Learning,Data Science, Student, Research, Software Engineering, Internship, SOftware Engineering Internship" />
+    <title>Discussion Forum</title>
+    <meta name="description" content="Discussion Forum website" />
+    <meta name="author" content="Siddharth Pandey" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alef">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Armata">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bahiana">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <style>
         body {
             background-image: linear-gradient(180deg, #3ca2d2 0, #a8f3ff 50%, #44b0c6 100%)
         }
-
+        
         .content {
             position: relative;
             z-index: 1000;
         }
-
+        
         .page {
             position: absolute;
             height: 100%;
             width: 100%;
             background-image: linear-gradient(180deg, #3ca2d2 0, #a8f3ff 50%, #44b0c6 100%)
         }
-
+        
         .user_activity {
             top: 70%;
             height: auto;
             background-image: linear-gradient(180deg, #7a878e 0, #bdbdbd 50%, #d6dbdd 100%)
         }
-
+        
         .page_user {
             position: relative;
             z-index: 1000;
             width: 100%
         }
-
+        
         .user_details {
             position: fixed;
             z-index: -99;
             top: 5%
         }
-
+        
         .dropdown-item:hover {
             background-color: #7a878e;
         }
@@ -52,99 +56,238 @@
 </head>
 
 <body>
+
+    <div>
+        <nav class="bg-gray-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex items-center justify-between h-16">
+                    <div class="flex items-center">
+                        <div class="flex-shrink-0">
+                            <img class="h-8 w-8" src="logo.png" alt="user_profile" />
+                        </div>
+                        <div class="hidden md:block">
+                            <div class="ml-10 flex items-baseline">
+                                <a href="#" class="px-3 py-2 rounded-md text-sm font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700">Dashboard
+                    </a>
+                                <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Team
+                    </a>
+                                <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Projects
+                    </a>
+                                <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Calendar
+                    </a>
+                                <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Reports
+                    </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden md:block">
+                        <div class="ml-4 flex items-center md:ml-6">
+                            <button class="p-1 border-2 border-transparent text-gray-400 rounded-full hover:text-white focus:outline-none focus:text-white focus:bg-gray-700" aria-label="Notifications">
+                    <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                    </svg>
+                  </button>
+
+                            <!-- Profile dropdown -->
+                            <div class="ml-3 relative">
+                                <div>
+                                    <button class="max-w-xs flex items-center text-sm rounded-full text-white focus:outline-none focus:shadow-solid" id="user-menu" aria-label="User menu" aria-haspopup="true">
+                        <img class="h-8 w-8 rounded-full" src="default_profile.png" alt="hero" />
+                      </button>
+                                </div>
+                                <!--
+                      Profile dropdown panel, show/hide based on dropdown state.
+      
+                      Entering: "transition ease-out duration-100"
+                        From: "transform opacity-0 scale-95"
+                        To: "transform opacity-100 scale-100"
+                      Leaving: "transition ease-in duration-75"
+                        From: "transform opacity-100 scale-100"
+                        To: "transform opacity-0 scale-95"
+                    -->
+                                <div class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg">
+                                    <div class="py-1 rounded-md bg-white shadow-xs" role="menu" aria-orientation="vertical" aria-labelledby="user-menu">
+                                        <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Your Profile
+                        </a>
+                                        <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Settings
+                        </a>
+                                        <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Chat
+                        </a>
+
+                                        <a href="/logout" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Logout
+                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="-mr-2 flex md:hidden">
+                        <!-- Mobile menu button -->
+                        <button class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white">
+                  <!-- Menu open: "hidden", Menu closed: "block" -->
+                  <svg class="block h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                  <!-- Menu open: "block", Menu closed: "hidden" -->
+                  <svg class="hidden h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+                    </div>
+                </div>
+            </div>
+
+            <!--
+            Mobile menu, toggle classes based on menu state.
+      
+            Open: "block", closed: "hidden"
+          -->
+            <div class="hidden md:hidden">
+                <div class="px-2 pt-2 pb-3 sm:px-3">
+                    <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700">Dashboard
+              </a>
+                    <a href="#" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Discussion Forum
+              </a>
+                    <a href="#" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Projects
+              </a>
+                    <a href="#" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Calendar
+              </a>
+                    <a href="#" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Topics
+              </a>
+                </div>
+                <div class="pt-4 pb-3 border-t border-gray-700">
+                    <div class="flex items-center px-5">
+                        <div class="flex-shrink-0">
+                            <img class="h-10 w-10 rounded-full" src="logo.png" alt="" />
+                        </div>
+                        <div class="ml-3">
+                            <div class="text-base font-medium leading-none text-white">Tom Cook
+                            </div>
+                            <div class="mt-1 text-sm font-medium leading-none text-gray-400">tom@example.com
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-3 px-2">
+                        <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Your Profile
+                </a>
+                        <a href="#" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Settings
+                </a>
+                        <a href="/logout" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Log out
+                </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <header class="bg-white shadow">
+            <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                <h1 class="text-3xl font-bold leading-tight text-gray-900">
+                    Dashboard
+                    <br>
+                    <br>
+                    <h1 class="display-4 text-center">Welcome
+                        <%=name%>
+                            </user>
+                    </h1>
+                    <img class="h-30 w-30" src="default_profile.png" alt="user_profile" />
+
+
+
+                </h1>
+            </div>
+        </header>
+        <main>
+            <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+                <!-- Replace with your content -->
+                <div class="px-4 py-6 sm:px-0">
+                    <div class="border-4 border-dashed border-gray-200 rounded-lg h-96"></div>
+                </div>
+                <!-- /End replace -->
+            </div>
+        </main>
+    </div>
+
     <div class="page content">
         <div class="user_details page_user" style="margin-top: 0px;">
             <div class="row" id="user_details_row" style="margin: 0px;">
-                <div class="col text-center m-auto col-md-6 col-sm-12 col-12" id="user_img" style="padding: 10px;"><img
-                        class="img-fluid border rounded-circle border-dark shadow-lg"
-                        src="../public/default_profile.png" width="40%"></div>
-                <div class="col text-center m-auto col-md-6 col-sm-12 col-12" id="user_name"
-                    style="padding: 0px;padding-bottom: 5px;">
-                    <h1 class="display-4 text-center">Welcome <%=name%> </user></h1>
-                    <button class="btn btn-primary" type="button">Edit Profile</button>
-                    <button class="btn btn-success" type="button" style="margin-left: 5px;">Chat</button>
-                    <a href="/logout" class="btn btn-warning" style="margin-left: 5px;">Logout</a>
+                <div class="col text-center m-auto col-md-6 col-sm-12 col-12" id="user_img" style="padding: 10px;"><img class="img-fluid border rounded-circle border-dark shadow-lg" src="" width="40%"></div>
+                <div class="col text-center m-auto col-md-6 col-sm-12 col-12" id="user_name" style="padding: 0px;padding-bottom: 5px;">
 
                 </div>
             </div>
         </div>
-        <div class="text-center user_activity page_user">
-            <hr style="background-color: #000000;width: 80vw;">
-            <div class="dropdown">
-                <button class="btn btn-dark btn-block btn-lg dropdown-toggle" data-toggle="dropdown"
-                    aria-expanded="false" type="button">TOPICS </button>
-                <div role="menu" class="dropdown-menu text-center" style="width: 100vw;">
-                    <a role="presentation" class="dropdown-item" href="#">Web Development</a>
-                    <a role="presentation" class="dropdown-item" href="#">App Development</a>
-                    <a role="presentation" class="dropdown-item" href="#">Artificial Intelligence</a>
-                    <a role="presentation" class="dropdown-item" href="#">Data Science</a>
-                    <a role="presentation" class="dropdown-item" href="#">Cyber Security</a>
-                    <a role="presentation" class="dropdown-item" href="#">Competetive Programming</a>
-                </div>
+
+    </div>
+    <div class="text-center user_activity page_user">
+        <hr style="background-color: #000000;width: 80vw;">
+        <div class="dropdown">
+            <button class="btn btn-dark btn-block btn-lg dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">TOPICS </button>
+            <div role="menu" class="dropdown-menu text-center" style="width: 100vw;">
+                <a role="presentation" class="dropdown-item" href="#">Web Development</a>
+                <a role="presentation" class="dropdown-item" href="#">App Development</a>
+                <a role="presentation" class="dropdown-item" href="#">Artificial Intelligence</a>
+                <a role="presentation" class="dropdown-item" href="#">Data Science</a>
+                <a role="presentation" class="dropdown-item" href="#">Cyber Security</a>
+                <a role="presentation" class="dropdown-item" href="#">Competetive Programming</a>
             </div>
-            <hr style="background-color: #000000;width: 80vw;">
-            <h1 style="font-family: Armata, sans-serif;">RECENT POSTS</h1>
-            <div class="row row-cols-2" style="margin-right: 0px;margin-left: 0px;margin-top: 10px;">
-                <div class="col" style="padding: 2%;">
-                    <div class="card">
-                        <div class="card-header">
-                            <img class="border rounded-circle float-left" style="width: 25%;"
-                                src="../public/default_profile.png">
-                            <h3>Username</h3>
-                            <h5>email</h5>
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio,
-                                dapibus ac facilisis in, egestas eget quam.&nbsp;</p>
-                        </div>
+        </div>
+        <hr style="background-color: #000000;width: 80vw;">
+        <br>
+
+        <h1 style="font-family: Armata, sans-serif;">RECENT POSTS</h1>
+        <div class="row row-cols-2" style="margin-right: 0px;margin-left: 0px;margin-top: 10px;">
+            <div class="col" style="padding: 2%;">
+                <div class="card">
+                    <div class="card-header">
+                        <img class="border rounded-circle float-left" style="width: 25%;" src="default_profile.png">
+                        <h3>Username</h3>
+                        <h5>email</h5>
                     </div>
-                </div>
-                <div class="col" style="padding: 2%;">
-                    <div class="card">
-                        <div class="card-header">
-                            <img class="border rounded-circle float-left" style="width: 25%;"
-                                src="../public/default_profile.png">
-                            <h3>Username</h3>
-                            <h5>email</h5>
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio,
-                                dapibus ac facilisis in, egestas eget quam.&nbsp;</p>
-                        </div>
+                    <div class="card-body">
+                        <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.&nbsp;</p>
                     </div>
                 </div>
             </div>
-            <div class="row row-cols-2" style="margin-right: 0px;margin-left: 0px;margin-top: 10px;">
-                <div class="col" style="padding: 2%;">
-                    <div class="card">
-                        <div class="card-header">
-                            <img class="border rounded-circle float-left" style="width: 25%;"
-                                src="../public/default_profile.png">
-                            <h3>Username</h3>
-                            <h5>email</h5>
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio,
-                                dapibus ac facilisis in, egestas eget quam.&nbsp;</p>
-                        </div>
+            <div class="col" style="padding: 2%;">
+                <div class="card">
+                    <div class="card-header">
+                        <img class="border rounded-circle float-left" style="width: 25%;" src="default_profile.png">
+                        <h3>Username</h3>
+                        <h5>email</h5>
                     </div>
-                </div>
-                <div class="col" style="padding: 2%;">
-                    <div class="card">
-                        <div class="card-header">
-                            <img class="border rounded-circle float-left" style="width: 25%;"
-                                src="../public/default_profile.png">
-                            <h3>Username</h3>
-                            <h5>emial</h5>
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio,
-                                dapibus ac facilisis in, egestas eget quam.&nbsp;</p>
-                        </div>
+                    <div class="card-body">
+                        <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.&nbsp;</p>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row row-cols-2" style="margin-right: 0px;margin-left: 0px;margin-top: 10px;">
+            <div class="col" style="padding: 2%;">
+                <div class="card">
+                    <div class="card-header">
+                        <img class="border rounded-circle float-left" style="width: 25%;" src="default_profile.png">
+                        <h3>Username</h3>
+                        <h5>email</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.&nbsp;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="padding: 2%;">
+                <div class="card">
+                    <div class="card-header">
+                        <img class="border rounded-circle float-left" style="width: 25%;" src="default_profile.png">
+                        <h3>Username</h3>
+                        <h5>emial</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.&nbsp;</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
