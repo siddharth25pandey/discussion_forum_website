@@ -7,14 +7,16 @@ const passport = require('passport')
 var bodyParser = require("body-parser")
 const path = require("path")
 const flash = require('express-flash')
-
+const app=express()
+const server = app.listen(3000,console.log("server running"))
+const io = require('socket.io').listen(server)
 const session = require('express-session')
 const methodOverride = require('method-override')
 const bcrypt =require('bcryptjs')
 const mongoose = require('mongoose');
 const {ensureAuth} =require('./config/auth');
 
-const app=express()
+
 
 //user model
 const User=require("./model/Users.js")
@@ -166,6 +168,31 @@ app.post('/register',(req,res)=>{
 
 })
 
+app.get("/userprofile/chat",ensureAuth,(req,res)=>{
+  res.render("index.ejs")
+})
+
+io.on("connection", function(socket){
+  socket.on("chatMessage", function(sent_msg){
+  sent_msg = "[ " + getCurrentDate() + " ]: " + sent_msg;
+
+  socket.broadcast.emit("message", sent_msg);
+ 
+  });
+});
+
+function getCurrentDate(){
+var currentDate = new Date();
+var day = (currentDate.getDate()<10 ? '0' : '') + currentDate.getDate();
+var month = ((currentDate.getMonth() + 1)<10 ? '0' : '') + (currentDate.getMonth() + 1);
+var year = currentDate.getFullYear();
+var hour = (currentDate.getHours()<10 ? '0' : '') + currentDate.getHours();
+var minute = (currentDate.getMinutes()<10 ? '0' : '') + currentDate.getMinutes();
+var second = (currentDate.getSeconds()<10 ? '0' : '') + currentDate.getSeconds();
+
+return year + "-" + month + "-" + day + " " + hour + ":" + minute + ":" + second;
+}
+
 app.get('/login',  (req, res) => {
   res.render('login.ejs')
 })
@@ -186,5 +213,3 @@ app.get('/logout',(req,res)=>{
   res.redirect('/login');
 })
 
-
-app.listen(3000, console.log("server is running"))
