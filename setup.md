@@ -20,7 +20,7 @@
 	To check the version of nodeJS on windows, type 'node -v' on command prompt.
 	For Ubuntu try 'node -version' if above code does not work.
 
-##Installation(Windows):
+## Installation(Windows):
 	
 It's the easiest way to install nodeJS:
 *	Surf the net for the version of nodeJS that you like.
@@ -29,11 +29,11 @@ It's the easiest way to install nodeJS:
 *	Mostly it is C:/ProgramFiles/npm. It is however advisable to check the path of npm installation.
 *	You are done.
 	
-#NOTE: You may face some integrity issues while using the command "npm run devStart" on windows
+# NOTE: You may face some integrity issues while using the command "npm run devStart" on windows
        possibly due to some dependency issues. It is advisable to search for the problem in stackoverflow.com and ammend it accordingly.
 	
 
-##Installation(Linux):
+## Installation(Linux):
 
 The key difference lies only in the way you install nodeJS.
 You probably will have to use terminal for that as GUI methods are not that viable with linux installations.
@@ -44,7 +44,7 @@ The steps for going through terminal are:
 *	Rest will be taken care by the system(no need to add path).
  
 
-###IMPORTANT!!: Make sure to have administrator or root privileges for doing the things. Avoiding this may create permission-denial error.
+### IMPORTANT!!: Make sure to have administrator or root privileges for doing the things. Avoiding this may create permission-denial error.
 
 
 
