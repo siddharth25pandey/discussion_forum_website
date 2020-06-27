@@ -128,13 +128,13 @@ span {
 }
 
 nav {
-    background-color: #ddd;
+    background-color: blueviolet;
 }
 
 .footer {
     padding: 30px;
     text-align: center;
-    background: #ddd;
+    background: blueviolet;
     text-decoration-color: black;
     margin-top: 20px;
 }

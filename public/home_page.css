@@ -1,29 +1,42 @@
-header{
+header {
     background-image: url("image.jpeg");
     height: 100vh;
     background-size: cover;
     background-position: center;
 }
+
 nav {
-  background-color: #ccc;
+    background-color: blueviolet;
+}
+
+h1 {
+    color: red;
+    font-size: large;
+    font: bold;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(44, 238, 157);
 }
 
 body {
-  margin:0;
-  padding:0;
-  background-image:url("image.jpeg");
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  color: black;
+    margin: 0;
+    padding: 0;
+    background-image: url("image.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .footer {
     padding: 30px;
     text-align: center;
-    background: #ddd;
+    background: blueviolet;
     margin-top: 20px;
-   text-decoration-color: black;
+    text-decoration-color: black;
+    text-emphasis-color: black;
 }
-

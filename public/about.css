@@ -6,11 +6,11 @@ header {
 }
 
 nav {
-    background-color: #ccc;
+    background-color: blueviolet;
 }
 
 p {
-    color: orangered;
+    color: rgb(44, 238, 157);
     font-size: 30px;
     font: bold;
 }
@@ -29,7 +29,7 @@ body {
 .footer {
     padding: 30px;
     text-align: center;
-    background: #ddd;
+    background: blueviolet;
     margin-top: 20px;
     text-decoration-color: black;
 }

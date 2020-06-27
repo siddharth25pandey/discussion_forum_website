@@ -1,120 +1,166 @@
 <!DOCTYPE html>
- <html class="no-js"> 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Discussion</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <style>
-      body{
-          padding:0;
-          margin: 0;
-      }
-      .container{
-          position: relative;
-          margin: 100px auto;
-          border:1px solid black;
-          width: 45%;
-          height:60vh;
-          overflow-y: scroll;
-      }
-      #send-container{
+<html class>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Discussion Forum Website , Discussion, Web development, App development, Machine Learning,Data Science, Student, Research, Software Engineering, Internship, SOftware Engineering Internship" />
+    <title>Discussion Forum</title>
+    <meta name="description" content="Discussion Forum website" />
+    <meta name="author" content="Siddharth Pandey" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+        background-image: url("image.jpeg");
+    }
+    
+    .container {
+        position: relative;
+        margin: 100px auto;
+        border: 1px solid black;
+        width: 45%;
+        height: 60vh;
+        overflow-y: scroll;
+        background-color: aqua;
+    }
+    
+    #send-container {
         position: relative;
         width: 45%;
         height: 2rem;
         margin: auto;
-        bottom:5.5rem;
-      }
-      .messageinput{
-          width:75%;
-          height: 30px;
-      }
-      #send{
-          width:20%;
-          height: 30px;
-      }
-      .left{
-          height:2rem;
-          border: 1px solid black;
-          float: left;
-          width: 60%;
-          margin:10px;
-          overflow-y: auto;
-      }
-    .right{
-          height:2rem;
-          border: 1px solid black;
-          float: right;
-          width: 60%;
-          margin:10px;
-          overflow-y: auto;
-          
-      }
-      .text{
+        bottom: 5.5rem;
+        color: burlywood;
+    }
+    
+    .messageinput {
+        width: 75%;
+        height: 30px;
+        color: black;
+        background-color: chartreuse;
+    }
+    
+    #send {
+        width: 20%;
+        height: 30px;
+        color: red;
+        background-color: black;
+    }
+    
+    .left {
+        height: 2rem;
+        border: 1px solid black;
+        float: left;
+        width: 60%;
+        margin: 10px;
+        overflow-y: auto;
+    }
+    
+    .right {
+        height: 2rem;
+        border: 1px solid black;
+        float: right;
+        width: 60%;
+        margin: 10px;
+        overflow-y: auto;
+    }
+    
+    .text {
         font-size: 15px;
-	font-weight: bold;
-	color: var(--dark-color-b);
-	opacity: 0.7;
-	margin-bottom: 7px;
-}
-      
-    </style>
-    <body>
-        <div class="container">
-            <!-- <div class="left"></div>
+        font-weight: bold;
+        color: var(--dark-color-b);
+        opacity: 0.7;
+        margin-bottom: 7px;
+        color: red;
+    }
+    
+    nav {
+        color: blueviolet;
+    }
+    
+    .footer {
+        padding: 30px;
+        text-align: center;
+        background: blueviolet;
+        margin-top: 20px;
+        text-decoration-color: black;
+        text-emphasis-color: black;
+    }
+    
+    h1 {
+        color: rgb(44, 238, 157);
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 80px;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#"><img src="public/logo.png" width="10%"></a>
+    </nav>
+    <h1>Discussion Box</h1>
+    <div class="container">
+        <!-- <div class="left"></div>
             <div class="right"></div> -->
-            
-        </div>
-        <form id="send-container">
-            <input type="text" class="messageinput" required>
-            <button type="submit" id="send">Send</button>
-        </form>
-       
-        <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
-        <script  src="/socket.io/socket.io.js"></script>
 
-<script>
-        const socket=io();
-        const messageForm=document.querySelector("#send-container");
-        const messageInput=document.querySelector(".messageinput");
-        const container=document.querySelector(".container");
+    </div>
+    <form id="send-container">
+        <input type="text" class="messageinput" required>
+        <button type="submit" id="send">Send</button>
+    </form>
+    <div class="footer">
+        Copyright @ Discussion Forum Platform
+    </div>
 
-socket.on("message",data=>{
-   outputMessage(data);
-   container.scrollTop=container.scrollHeight;
-})
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
 
-messageForm.addEventListener("submit",(e)=>{
-   e.preventDefault();
-   const msg=messageInput.value;
-   socket.emit("chatMessage",msg);
-   inputMessage(msg);
-  container.scrollTop=container.scrollHeight;
-   e.target.elements[0].value="";
-   e.target.elements[0].focus();
-   
+    <script>
+        const socket = io();
+        const messageForm = document.querySelector("#send-container");
+        const messageInput = document.querySelector(".messageinput");
+        const container = document.querySelector(".container");
 
-})
+        socket.on("message", data => {
+            outputMessage(data);
+            container.scrollTop = container.scrollHeight;
+        })
 
-function outputMessage(message){
-   const div=document.createElement("div");
-   div.classList.add("left");
-   div.innerHTML=`<p>${message}</p>`;
-  
-   document.querySelector(".container").appendChild(div);
-}
-function inputMessage(message){
-   const div=document.createElement("div");
-   div.classList.add("right");
-   div.innerHTML=`<p class="text">${message}</p>`;
-  
-   document.querySelector(".container").appendChild(div);
-}
+        messageForm.addEventListener("submit", (e) => {
+            e.preventDefault();
+            const msg = messageInput.value;
+            socket.emit("chatMessage", msg);
+            inputMessage(msg);
+            container.scrollTop = container.scrollHeight;
+            e.target.elements[0].value = "";
+            e.target.elements[0].focus();
 
-        </script>
-        
-    </body>
+
+        })
+
+        function outputMessage(message) {
+            const div = document.createElement("div");
+            div.classList.add("left");
+            div.innerHTML = `<p>${message}</p>`;
+
+            document.querySelector(".container").appendChild(div);
+        }
+
+        function inputMessage(message) {
+            const div = document.createElement("div");
+            div.classList.add("right");
+            div.innerHTML = `<p class="text">${message}</p>`;
+
+            document.querySelector(".container").appendChild(div);
+        }
+    </script>
+
+</body>
+
 </html>
