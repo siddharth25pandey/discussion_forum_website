@@ -34,7 +34,15 @@ For any queries, reach out to the Developers :
 * [Priyam Bajpai](mailto:bajpaipriyam90@gmail.com) (**Front End**)
 <table>
   <tr>
+    <td align="center"><a href="https://siddharth25pandey.github.io/"><img src="https://avatars1.githubusercontent.com/siddharth25pandey" width="100px;" alt=""/><br /><sub><b>Siddharth Pandey</b></sub></a><br /> <a href="https://github.com/siddharth25pandey/discussion_forum_website/commits?author=siddharth25pandey" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/tanay13"><img src="https://avatars1.githubusercontent.com/tanay13" width="100px;" alt=""/><br /><sub><b>tanay Raj</b></sub></a><br /> <a href="https://github.com/siddharth25pandey/discussion_forum_website/commits?author=tanay13" title="Documentation">📖</a></td>
+    
+    <td align="center"><a href="https://github.com/surya1701"><img src="https://avatars1.githubusercontent.com/surya1701" width="100px;" alt=""/><br /><sub><b>Siddharth Pandey</b></sub></a><br /> <a href="https://github.com/siddharth25pandey/discussion_forum_website/commits?author=surya13" title="Documentation">📖</a></td>
+    
     <td align="center"><a href="https://github.com/siddharth25pandey/discussion_forum_website"><img src="https://avatars1.githubusercontent.com/siddharth25pandey" width="100px;" alt=""/><br /><sub><b>Siddharth Pandey</b></sub></a><br /> <a href="https://github.com/siddharth25pandey/discussion_forum_website/commits?author=siddharth25pandey" title="Documentation">📖</a></td>
+    
+    <td align="center"><a href="https://github.com/siddharth25pandey/discussion_forum_website"><img src="https://avatars1.githubusercontent.com/siddharth25pandey" width="100px;" alt=""/><br /><sub><b>Siddharth Pandey</b></sub></a><br /> <a href="https://github.com/siddharth25pandey/discussion_forum_website/commits?author=siddharth25pandey" title="Documentation">📖</a></td>
+    
     
   </tr>
 
