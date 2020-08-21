@@ -36,7 +36,11 @@ For any queries, reach out to the Developers :
   <tr>
     <td align="center"><a href="https://siddharth25pandey.github.io/"><img src="https://avatars1.githubusercontent.com/siddharth25pandey" width="100px;" alt=""/><br /><sub><b>Siddharth Pandey</b></sub></a><br /> <a href="https://github.com/siddharth25pandey/discussion_forum_website/commits?author=siddharth25pandey" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/tanay13"><img src="https://avatars1.githubusercontent.com/tanay13" width="100px;" alt=""/><br /><sub><b>tanay Raj</b></sub></a><br /> <a href="https://github.com/siddharth25pandey/discussion_forum_website/commits?author=tanay13" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/surya1701"><img src="https://avatars1.githubusercontent.com/surya1701" width="100px;" alt=""/><br /><sub><b>S Suryavardan</b></sub></a><br /> <a href="https://github.com/siddharth25pandey/discussion_forum_website/commits?author=surya1701" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Shreyashm16"><img src="https://avatars1.githubusercontent.com/Shreyashm16" width="100px;" alt=""/><br /><sub><b>Shreyash Mishra</b></sub></a><br /> <a href="https://github.com/siddharth25pandey/discussion_forum_website/commits?author=Shreyashm16" title="Documentation">📖</a></td>
+     <td align="center"><a href="https://github.com/piyush9311"><img src="https://avatars1.githubusercontent.com/piyush9311" width="100px;" alt=""/><br /><sub><b>Piyush Kumar</b></sub></a><br /> <a href="https://github.com/siddharth25pandey/discussion_forum_website/commits?author=piyush9311" title="Documentation">📖</a></td>
+ <td align="center"><a href="https://github.com/prichoms"><img src="https://avatars1.githubusercontent.com/prichoms" width="100px;" alt=""/><br /><sub><b>Priyam Bajpai</b></sub></a><br /> <a href="https://github.com/siddharth25pandey/discussion_forum_website/commits?author=prichoms" title="Documentation">📖</a></td>
+     
     
     
       
