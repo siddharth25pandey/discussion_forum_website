@@ -32,3 +32,9 @@ For any queries, reach out to the Developers :
 * [Shreyash Mishra](mailto:shreyashm1601@gmail.com) (**Front End**)
 * [Piyush Kumar](mailto:kumarpiyushsingh9311@gmail.com) (**Front End**)
 * [Priyam Bajpai](mailto:bajpaipriyam90@gmail.com) (**Front End**)
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/siddharth25pandey/discussion_forum_website"><img src="https://avatars1.githubusercontent.com/siddharth25pandey" width="100px;" alt=""/><br /><sub><b>Siddharth Pandey</b></sub></a><br /> <a href="https://github.com/siddharth25pandey/discussion_forum_website/commits?author=siddharth25pandey" title="Documentation">📖</a></td>
+    
+  </tr>
+
