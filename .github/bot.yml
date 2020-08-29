@@ -1,0 +1,10 @@
+issue:
+  message: "Thank you { ACTOR } for opening this issue."
+  assign: true
+pr:
+  message: "Thanks for opening a PR, Your PR is #{ NUMBER }"
+  assign: true
+  change_check: true
+  change_glob: "Changelog.md"
+  skip_changelog_label: "Skip Changelog"
+  changelog_url: "https://github.com"
