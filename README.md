@@ -24,6 +24,7 @@
 * **Sub-Forums & Categories or Division of the Discussion forum**- Enables the user to quickly find out the Division of the Forums according to their choice.
 * For visiting **setup file** please follow this [url](https://github.com/siddharth25pandey/discussion_forum_website/blob/master/setup.md)
 
+### Github Integrity actions are added for issues & PR
 ## More Details will be uploaded soon! stay tuned.
 For any queries, reach out to the Developers :
 * [Tanay Raj](mailto:tanay.raj76@gmail.com) (**Back End**)
