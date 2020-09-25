@@ -19,7 +19,7 @@
 
 * **A Good Admin Control Pannel** - That will monitor all the user discussion without indulging in the forum chats.
 
-* **Edit and Reply to the Messages**-  Feature of replying & Editing the text messages sended by the user in discussion forum.
+* **Edit and Reply to the Messages**-  Feature of replying and Editing the text messages sended by the user in discussion forum.
 
 * **Sub-Forums & Categories or Division of the Discussion forum**- Enables the user to quickly find out the Division of the Forums according to their choice.
 * For visiting **setup file** please follow this [url](https://github.com/siddharth25pandey/discussion_forum_website/blob/master/setup.md)
