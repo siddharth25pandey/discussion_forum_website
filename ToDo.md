@@ -30,7 +30,6 @@ We are going to create a Discussion forum website in which user can discuss topi
 * Linking host e-mail ID with *contact us* form
 
 ## Work Remaining:
-* E-mail Notification Alert System
 * Database storing 
 * Linking Database for user profile to the *user profile* page
 * Creation of a page with instructions for installing npm 
