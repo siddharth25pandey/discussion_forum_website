@@ -32,7 +32,7 @@ For any queries, reach out to the Developers :
 * [S Suryavardan](mailto:suryavardan17@gmail.com) (**Front End**)
 * [Shreyash Mishra](mailto:shreyashm1601@gmail.com) (**Front End**)
 * [Piyush Kumar](mailto:kumarpiyushsingh9311@gmail.com) (**Front End**)
-* [Priyam Bajpai](mailto: priyambajpai@yahoo.in) (**Front End**)
+* [Priyam Bajpai](mailto:priyambajpai@yahoo.in) (**Front End**)
 
 ### Contributor's List
 <table>
