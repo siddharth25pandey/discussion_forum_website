@@ -1,6 +1,4 @@
-HTML
-CSS
-Java Script
+HTML CSS and JS
 BootStrap
 React
 React-Native

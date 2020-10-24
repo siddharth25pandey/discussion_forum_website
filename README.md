@@ -19,19 +19,20 @@
 
 * **A Good Admin Control Pannel** - That will monitor all the user discussion without indulging in the forum chats.
 
-* **Edit and Reply to the Messages**-  Feature of replying and Editing the text messages sended by the user in discussion forum.
+* **Edit and Reply to the Messages**-  Feature of replying & Editing the text messages sended by the user in discussion forum.
 
 * **Sub-Forums & Categories or Division of the Discussion forum**- Enables the user to quickly find out the Division of the Forums according to their choice.
 * For visiting **setup file** please follow this [url](https://github.com/siddharth25pandey/discussion_forum_website/blob/master/setup.md)
 
+### Github Integrity actions are added for issues & PR
 ## More Details will be uploaded soon! stay tuned.
 For any queries, reach out to the Developers :
+* [Siddharth Pandey](mailto:siddharth25pandey@gmail.com) (**Front End & Back End**)
 * [Tanay Raj](mailto:tanay.raj76@gmail.com) (**Back End**)
-* [Siddharth Pandey](mailto:siddharth25pandey@gmail.com) (**Front End**)
 * [S Suryavardan](mailto:suryavardan17@gmail.com) (**Front End**)
 * [Shreyash Mishra](mailto:shreyashm1601@gmail.com) (**Front End**)
 * [Piyush Kumar](mailto:kumarpiyushsingh9311@gmail.com) (**Front End**)
-* [Priyam Bajpai](mailto:bajpaipriyam90@gmail.com) (**Front End**)
+* [Priyam Bajpai](mailto:priyambajpai@yahoo.in) (**Front End**)
 
 ### Contributor's List
 <table>
@@ -43,9 +44,6 @@ For any queries, reach out to the Developers :
      <td align="center"><a href="https://github.com/piyush9311"><img src="https://avatars1.githubusercontent.com/piyush9311" width="100px;" alt=""/><br /><sub><b>Piyush Kumar</b></sub></a><br /> <a href="https://github.com/siddharth25pandey/discussion_forum_website/commits?author=piyush9311" title="Documentation">📖</a></td>
  <td align="center"><a href="https://github.com/prichoms"><img src="https://avatars1.githubusercontent.com/prichoms" width="100px;" alt=""/><br /><sub><b>Priyam Bajpai</b></sub></a><br /> <a href="https://github.com/siddharth25pandey/discussion_forum_website/commits?author=prichoms" title="Documentation">📖</a></td>
      
-    
-    
-      
     
   </tr>
 </table>
