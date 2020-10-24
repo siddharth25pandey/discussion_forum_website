@@ -27,7 +27,7 @@
 ### Github Integrity actions are added for issues & PR
 ## More Details will be uploaded soon! stay tuned.
 For any queries, reach out to the Developers :
-* [Siddharth Pandey](mailto:siddharth25pandey@gmail.com) (**Front End && Back End**)
+* [Siddharth Pandey](mailto:siddharth25pandey@gmail.com) (**Front End & Back End**)
 * [Tanay Raj](mailto:tanay.raj76@gmail.com) (**Back End**)
 * [S Suryavardan](mailto:suryavardan17@gmail.com) (**Front End**)
 * [Shreyash Mishra](mailto:shreyashm1601@gmail.com) (**Front End**)
